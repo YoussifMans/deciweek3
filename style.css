@@ -1,0 +1,104 @@
+.title {
+    color: rgb(100, 100, 255);
+    font-size: 28pt;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7.5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+nav a, .submitBtnContainer input {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(50, 50, 255);
+    border-radius: 7.5px;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .5);
+    border: none;
+}
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI';
+}
+
+#title {
+    text-align: center;
+    color: rgb(100, 100, 255);
+}
+
+.featured {
+    color: rgb(255, 75, 0);
+    font-style: italic;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a:hover, .submitBtnContainer input:hover {
+    background-color: rgb(100, 100, 255);
+    box-shadow: 3.75px 3.75px 5px rgba(0, 0, 0, .5);
+}
+
+* {
+    transition: 0.25s;
+}
+
+.design form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+fieldset {
+    background-color: white;
+    border-radius: 7.5px;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .25);
+    border: 1px solid black;
+    margin: 10px;
+}
+
+legend {
+    background-color: white;
+    border-radius: 7.5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.submitBtnContainer {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    background-color: white;
+    border-radius: 7.5px;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, .25);
+    border: 1px solid black;
+    padding: 10px;
+}
